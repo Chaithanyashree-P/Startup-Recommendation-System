@@ -1,0 +1,74 @@
+{
+  "marketTickers": [
+    {
+      "commodity": "Millet (Ragi/Bajra)",
+      "currentPrice": 3150,
+      "unit": "₹/q",
+      "changePercent": 2.4,
+      "isIncrease": true
+    },
+    {
+      "commodity": "Groundnut",
+      "currentPrice": 6020,
+      "unit": "₹/q",
+      "changePercent": 1.1,
+      "isIncrease": false
+    },
+    {
+      "commodity": "Farm Milk",
+      "currentPrice": 38,
+      "unit": "₹/L",
+      "changePercent": 0.5,
+      "isIncrease": true
+    },
+    {
+      "commodity": "Oyster Mushroom",
+      "currentPrice": 165,
+      "unit": "₹/kg",
+      "changePercent": 3.2,
+      "isIncrease": true
+    }
+  ],
+  "buyerLocations": [
+    {
+      "id": "mandi-a",
+      "name": "District Regulated Mandi A",
+      "type": "Mandi",
+      "distanceKm": 12,
+      "priceOffer": "₹3,150/q",
+      "shape": "circle",
+      "x": 30,
+      "y": 25
+    },
+    {
+      "id": "snack-retailer",
+      "name": "Regional Snack Retailer Co.",
+      "type": "Snack retailer",
+      "distanceKm": 6,
+      "priceOffer": "Order weekly",
+      "shape": "triangle",
+      "x": 65,
+      "y": 40
+    },
+    {
+      "id": "mandi-b",
+      "name": "Block Grain Mandi B",
+      "type": "Mandi",
+      "distanceKm": 21,
+      "priceOffer": "₹3,090/q",
+      "shape": "square",
+      "x": 50,
+      "y": 80
+    },
+    {
+      "id": "coop-c",
+      "name": "Women SHG Agro Federation",
+      "type": "Cooperative",
+      "distanceKm": 4,
+      "priceOffer": "Bulk buy ready",
+      "shape": "circle",
+      "x": 20,
+      "y": 60
+    }
+  ]
+}

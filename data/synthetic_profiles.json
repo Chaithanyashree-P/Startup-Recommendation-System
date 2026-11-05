@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Lakshmi",
+    "village": "Melur",
+    "block": "Block B13",
+    "district": "Madurai",
+    "savings": 50000,
+    "land": "< 1 acre",
+    "skills": ["Cooking", "Farming"],
+    "time": "Part-time",
+    "riskComfort": "Low",
+    "shgMember": true,
+    "category": "OBC",
+    "gender": "Female",
+    "age": 34,
+    "language": "en"
+  },
+  {
+    "name": "Ramesh",
+    "village": "Sirugudi",
+    "block": "Block B04",
+    "district": "Madurai",
+    "savings": 120000,
+    "land": "1-3",
+    "skills": ["Driving", "Mobile repair"],
+    "time": "Full-time",
+    "riskComfort": "Medium",
+    "shgMember": false,
+    "category": "General",
+    "gender": "Male",
+    "age": 28,
+    "language": "en"
+  },
+  {
+    "name": "Savitri",
+    "village": "Usilampatti",
+    "block": "Block B08",
+    "district": "Madurai",
+    "savings": 35000,
+    "land": "None",
+    "skills": ["Tailoring"],
+    "time": "Part-time",
+    "riskComfort": "Low",
+    "shgMember": true,
+    "category": "SC",
+    "gender": "Female",
+    "age": 42,
+    "language": "en"
+  }
+]

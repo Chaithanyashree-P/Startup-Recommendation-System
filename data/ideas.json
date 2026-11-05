@@ -1,0 +1,326 @@
+[
+  {
+    "id": "millet-snacks",
+    "name": "Millet snack unit",
+    "shortName": "Millet snacks",
+    "category": "Agro-processing",
+    "setupCost": 120000,
+    "setupCostFormatted": "₹1.2L",
+    "monthlyProfit": 14500,
+    "paybackMonths": 10,
+    "spaceRequired": "Home room",
+    "skillsRequired": ["Cooking", "Farming"],
+    "landRequired": "None",
+    "riskLevel": "Low-Med",
+    "confidence": "Medium",
+    "confidenceMandis": 14,
+    "buyersWithinKm": 12,
+    "schemesEligible": ["PMEGP", "MUDRA", "NRLM"],
+    "whyFits": [
+      "Millet grows well near you",
+      "Fits your ₹50,000 savings with MUDRA loan",
+      "You already have cooking skills"
+    ],
+    "description": "Value-added processing of ragi, bajra, and sorghum into packaged snacks (murukku, cookies, extruded puffs) with high local demand and 6-month shelf life.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 3100, "upperBound": 3250, "lowerBound": 2950 },
+      { "day": 15, "forecastPrice": 3120, "upperBound": 3290, "lowerBound": 2970 },
+      { "day": 30, "forecastPrice": 3150, "upperBound": 3340, "lowerBound": 2990 },
+      { "day": 45, "forecastPrice": 3180, "upperBound": 3390, "lowerBound": 3010 },
+      { "day": 60, "forecastPrice": 3210, "upperBound": 3450, "lowerBound": 3030 },
+      { "day": 75, "forecastPrice": 3240, "upperBound": 3500, "lowerBound": 3050 },
+      { "day": 90, "forecastPrice": 3280, "upperBound": 3560, "lowerBound": 3080 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 8000, "expenses": 14000, "netProfit": -6000 },
+      { "month": 2, "revenue": 14000, "expenses": 16000, "netProfit": -2000 },
+      { "month": 3, "revenue": 22000, "expenses": 18000, "netProfit": 4000 },
+      { "month": 4, "revenue": 26000, "expenses": 18000, "netProfit": 8000 },
+      { "month": 5, "revenue": 28000, "expenses": 18000, "netProfit": 10000 },
+      { "month": 6, "revenue": 31000, "expenses": 19000, "netProfit": 12000 },
+      { "month": 7, "revenue": 33000, "expenses": 19000, "netProfit": 14000 },
+      { "month": 8, "revenue": 34000, "expenses": 19500, "netProfit": 14500 },
+      { "month": 9, "revenue": 35000, "expenses": 20000, "netProfit": 15000 },
+      { "month": 10, "revenue": 36000, "expenses": 20000, "netProfit": 16000 },
+      { "month": 11, "revenue": 37000, "expenses": 20000, "netProfit": 17000 },
+      { "month": 12, "revenue": 38000, "expenses": 20500, "netProfit": 17500 }
+    ]
+  },
+  {
+    "id": "goat-farming",
+    "name": "Goat farming unit (10+1)",
+    "shortName": "Goat farming",
+    "category": "Animal husbandry",
+    "setupCost": 70000,
+    "setupCostFormatted": "₹70k",
+    "monthlyProfit": 9000,
+    "paybackMonths": 14,
+    "spaceRequired": "Small shed",
+    "skillsRequired": ["Farming"],
+    "landRequired": "< 1 acre",
+    "riskLevel": "Medium",
+    "confidence": "Medium",
+    "confidenceMandis": 8,
+    "buyersWithinKm": 18,
+    "schemesEligible": ["NRLM", "MUDRA"],
+    "whyFits": [
+      "Low initial capital requirement",
+      "High demand for meat in nearby weekly markets",
+      "KVK training center available within 18 km"
+    ],
+    "description": "Small-scale stall-fed goat rearing unit with 10 female and 1 male breeding goats. High progeny rate and reliable sales in local bi-weekly markets.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 520, "upperBound": 550, "lowerBound": 490 },
+      { "day": 30, "forecastPrice": 530, "upperBound": 565, "lowerBound": 495 },
+      { "day": 60, "forecastPrice": 545, "upperBound": 580, "lowerBound": 510 },
+      { "day": 90, "forecastPrice": 560, "upperBound": 600, "lowerBound": 520 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 2000, "expenses": 5000, "netProfit": -3000 },
+      { "month": 2, "revenue": 2000, "expenses": 4500, "netProfit": -2500 },
+      { "month": 3, "revenue": 3000, "expenses": 4500, "netProfit": -1500 },
+      { "month": 4, "revenue": 5000, "expenses": 4500, "netProfit": 500 },
+      { "month": 5, "revenue": 8000, "expenses": 5000, "netProfit": 3000 },
+      { "month": 6, "revenue": 12000, "expenses": 5000, "netProfit": 7000 },
+      { "month": 7, "revenue": 14000, "expenses": 5500, "netProfit": 8500 },
+      { "month": 8, "revenue": 14500, "expenses": 5500, "netProfit": 9000 },
+      { "month": 9, "revenue": 15000, "expenses": 5500, "netProfit": 9500 },
+      { "month": 10, "revenue": 15500, "expenses": 5500, "netProfit": 10000 },
+      { "month": 11, "revenue": 16000, "expenses": 6000, "netProfit": 10000 },
+      { "month": 12, "revenue": 16500, "expenses": 6000, "netProfit": 10500 }
+    ]
+  },
+  {
+    "id": "mushroom-unit",
+    "name": "Oyster mushroom unit",
+    "shortName": "Mushroom unit",
+    "category": "Agro-processing",
+    "setupCost": 45000,
+    "setupCostFormatted": "₹45k",
+    "monthlyProfit": 8500,
+    "paybackMonths": 8,
+    "spaceRequired": "Home room",
+    "skillsRequired": ["Farming", "Cooking"],
+    "landRequired": "None",
+    "riskLevel": "Low",
+    "confidence": "High",
+    "confidenceMandis": 16,
+    "buyersWithinKm": 8,
+    "schemesEligible": ["NRLM", "MUDRA"],
+    "whyFits": [
+      "Extremely low space requirement (uses thatched room)",
+      "Fast 25-day harvest cycles",
+      "High local restaurant and grocery buyer interest"
+    ],
+    "description": "Bag-based oyster mushroom cultivation using crop straw residue. High protein yield with rapid 25-30 day harvest cycles.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 160, "upperBound": 180, "lowerBound": 140 },
+      { "day": 30, "forecastPrice": 165, "upperBound": 185, "lowerBound": 145 },
+      { "day": 60, "forecastPrice": 170, "upperBound": 190, "lowerBound": 150 },
+      { "day": 90, "forecastPrice": 175, "upperBound": 195, "lowerBound": 155 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 3000, "expenses": 5000, "netProfit": -2000 },
+      { "month": 2, "revenue": 8000, "expenses": 4000, "netProfit": 4000 },
+      { "month": 3, "revenue": 11000, "expenses": 4000, "netProfit": 7000 },
+      { "month": 4, "revenue": 12000, "expenses": 4500, "netProfit": 7500 },
+      { "month": 5, "revenue": 12500, "expenses": 4500, "netProfit": 8000 },
+      { "month": 6, "revenue": 13000, "expenses": 4500, "netProfit": 8500 },
+      { "month": 7, "revenue": 13000, "expenses": 4500, "netProfit": 8500 },
+      { "month": 8, "revenue": 13500, "expenses": 4500, "netProfit": 9000 },
+      { "month": 9, "revenue": 14000, "expenses": 5000, "netProfit": 9000 },
+      { "month": 10, "revenue": 14000, "expenses": 5000, "netProfit": 9000 },
+      { "month": 11, "revenue": 14500, "expenses": 5000, "netProfit": 9500 },
+      { "month": 12, "revenue": 15000, "expenses": 5000, "netProfit": 10000 }
+    ]
+  },
+  {
+    "id": "tailoring-hub",
+    "name": "Garment tailoring & alteration hub",
+    "shortName": "Tailoring hub",
+    "category": "Services",
+    "setupCost": 50000,
+    "setupCostFormatted": "₹50k",
+    "monthlyProfit": 11000,
+    "paybackMonths": 6,
+    "spaceRequired": "Verandah",
+    "skillsRequired": ["Tailoring"],
+    "landRequired": "None",
+    "riskLevel": "Low",
+    "confidence": "High",
+    "confidenceMandis": 20,
+    "buyersWithinKm": 3,
+    "schemesEligible": ["MUDRA", "NRLM"],
+    "whyFits": [
+      "Matches your tailoring skill directly",
+      "Consistent year-round demand in village cluster",
+      "Immediate income starting week 2"
+    ],
+    "description": "Motorized sewing and interlock machine unit for school uniforms, blouse stitching, readymade alterations, and SHG bulk cloth bag stitching.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 250, "upperBound": 270, "lowerBound": 230 },
+      { "day": 45, "forecastPrice": 260, "upperBound": 280, "lowerBound": 240 },
+      { "day": 90, "forecastPrice": 270, "upperBound": 290, "lowerBound": 250 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 6000, "expenses": 3000, "netProfit": 3000 },
+      { "month": 2, "revenue": 10000, "expenses": 3500, "netProfit": 6500 },
+      { "month": 3, "revenue": 13000, "expenses": 4000, "netProfit": 9000 },
+      { "month": 4, "revenue": 14000, "expenses": 4000, "netProfit": 10000 },
+      { "month": 5, "revenue": 15000, "expenses": 4000, "netProfit": 11000 },
+      { "month": 6, "revenue": 16000, "expenses": 4500, "netProfit": 11500 },
+      { "month": 7, "revenue": 16000, "expenses": 4500, "netProfit": 11500 },
+      { "month": 8, "revenue": 17000, "expenses": 4500, "netProfit": 12500 },
+      { "month": 9, "revenue": 17000, "expenses": 4500, "netProfit": 12500 },
+      { "month": 10, "revenue": 18000, "expenses": 5000, "netProfit": 13000 },
+      { "month": 11, "revenue": 18000, "expenses": 5000, "netProfit": 13000 },
+      { "month": 12, "revenue": 19000, "expenses": 5000, "netProfit": 14000 }
+    ]
+  },
+  {
+    "id": "solar-dryer",
+    "name": "Solar dryer food processing",
+    "shortName": "Solar-dryer processing",
+    "category": "Agro-processing",
+    "setupCost": 90000,
+    "setupCostFormatted": "₹90k",
+    "monthlyProfit": 12500,
+    "paybackMonths": 9,
+    "spaceRequired": "Open yard",
+    "skillsRequired": ["Farming", "Cooking"],
+    "landRequired": "< 1 acre",
+    "riskLevel": "Low-Med",
+    "confidence": "Low",
+    "confidenceMandis": 4,
+    "buyersWithinKm": 15,
+    "schemesEligible": ["PMEGP", "MUDRA"],
+    "whyFits": [
+      "Uses solar energy with minimal electricity bill",
+      "Processes seasonal surplus tomato, chili, and herbs",
+      "High value retention for off-season sales"
+    ],
+    "description": "Polytunnel poly-house solar dryer for hygienic drying of chillies, moringa leaves, tomato flakes, and turmeric.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 420, "upperBound": 460, "lowerBound": 380 },
+      { "day": 90, "forecastPrice": 450, "upperBound": 490, "lowerBound": 410 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 4000, "expenses": 7000, "netProfit": -3000 },
+      { "month": 2, "revenue": 9000, "expenses": 6000, "netProfit": 3000 },
+      { "month": 3, "revenue": 14000, "expenses": 6000, "netProfit": 8000 },
+      { "month": 4, "revenue": 17000, "expenses": 6000, "netProfit": 11000 },
+      { "month": 5, "revenue": 18000, "expenses": 6500, "netProfit": 11500 },
+      { "month": 6, "revenue": 19000, "expenses": 6500, "netProfit": 12500 },
+      { "month": 7, "revenue": 20000, "expenses": 7000, "netProfit": 13000 },
+      { "month": 8, "revenue": 20000, "expenses": 7000, "netProfit": 13000 },
+      { "month": 9, "revenue": 21000, "expenses": 7000, "netProfit": 14000 },
+      { "month": 10, "revenue": 21000, "expenses": 7000, "netProfit": 14000 },
+      { "month": 11, "revenue": 22000, "expenses": 7500, "netProfit": 14500 },
+      { "month": 12, "revenue": 23000, "expenses": 7500, "netProfit": 15500 }
+    ]
+  },
+  {
+    "id": "bee-keeping",
+    "name": "Honey bee keeping (20 hives)",
+    "shortName": "Bee keeping",
+    "category": "Agro-processing",
+    "setupCost": 60000,
+    "setupCostFormatted": "₹60k",
+    "monthlyProfit": 8000,
+    "paybackMonths": 11,
+    "spaceRequired": "Farm border",
+    "skillsRequired": ["Farming"],
+    "landRequired": "< 1 acre",
+    "riskLevel": "Low",
+    "confidence": "Medium",
+    "confidenceMandis": 10,
+    "buyersWithinKm": 20,
+    "schemesEligible": ["NRLM", "KVIC"],
+    "whyFits": [
+      "Increases crop yield through natural pollination",
+      "Low daily labor requirement (part-time friendly)",
+      "High price for raw organic farm honey"
+    ],
+    "description": "Scientific apiculture using 20 Apis cerana hives. Produces pure raw honey and beeswax with dual benefit of boosting crop yields.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 380, "upperBound": 410, "lowerBound": 350 },
+      { "day": 90, "forecastPrice": 400, "upperBound": 430, "lowerBound": 370 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 1000, "expenses": 4000, "netProfit": -3000 },
+      { "month": 3, "revenue": 8000, "expenses": 3000, "netProfit": 5000 },
+      { "month": 6, "revenue": 12000, "expenses": 3500, "netProfit": 8500 },
+      { "month": 9, "revenue": 13000, "expenses": 3500, "netProfit": 9500 },
+      { "month": 12, "revenue": 14000, "expenses": 4000, "netProfit": 10000 }
+    ]
+  },
+  {
+    "id": "vermicompost",
+    "name": "Organic vermicompost unit",
+    "shortName": "Vermicompost",
+    "category": "Agro-processing",
+    "setupCost": 35000,
+    "setupCostFormatted": "₹35k",
+    "monthlyProfit": 7000,
+    "paybackMonths": 7,
+    "spaceRequired": "Shaded yard",
+    "skillsRequired": ["Farming"],
+    "landRequired": "< 1 acre",
+    "riskLevel": "Low",
+    "confidence": "High",
+    "confidenceMandis": 15,
+    "buyersWithinKm": 5,
+    "schemesEligible": ["NRLM", "MUDRA"],
+    "whyFits": [
+      "Converts cattle dung and crop waste into bio-fertilizer",
+      "Strong demand among organic farmers and nurseries",
+      "Very low operational maintenance cost"
+    ],
+    "description": "HDPE vermi-beds with Eisenia fetida earthworms producing premium organic soil enricher and vermiwash liquid fertilizer.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 8, "upperBound": 9.5, "lowerBound": 6.8 },
+      { "day": 90, "forecastPrice": 8.5, "upperBound": 10, "lowerBound": 7.2 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 2000, "expenses": 3000, "netProfit": -1000 },
+      { "month": 2, "revenue": 5000, "expenses": 2000, "netProfit": 3000 },
+      { "month": 3, "revenue": 8000, "expenses": 2000, "netProfit": 6000 },
+      { "month": 6, "revenue": 9500, "expenses": 2500, "netProfit": 7000 },
+      { "month": 12, "revenue": 11000, "expenses": 3000, "netProfit": 8000 }
+    ]
+  },
+  {
+    "id": "groundnut-oil",
+    "name": "Cold-pressed groundnut oil unit",
+    "shortName": "Groundnut oil press",
+    "category": "Agro-processing",
+    "setupCost": 180000,
+    "setupCostFormatted": "₹1.8L",
+    "monthlyProfit": 22000,
+    "paybackMonths": 12,
+    "spaceRequired": "Small shed",
+    "skillsRequired": ["Farming", "Mobile repair"],
+    "landRequired": "None",
+    "riskLevel": "Medium",
+    "confidence": "High",
+    "confidenceMandis": 18,
+    "buyersWithinKm": 10,
+    "schemesEligible": ["PMEGP", "MUDRA"],
+    "whyFits": [
+      "High premium for traditional unrefined wood-pressed oil",
+      "Oil cake by-product sold directly to local cattle farmers",
+      "Groundnut grown extensively in district"
+    ],
+    "description": "Wooden cold-press (Mara Chekku) oil extraction machine for pure groundnut, sesame, and mustard cooking oils.",
+    "priceOutlook": [
+      { "day": 0, "forecastPrice": 210, "upperBound": 230, "lowerBound": 195 },
+      { "day": 90, "forecastPrice": 225, "upperBound": 245, "lowerBound": 205 }
+    ],
+    "year1Cashflow": [
+      { "month": 1, "revenue": 15000, "expenses": 22000, "netProfit": -7000 },
+      { "month": 3, "revenue": 35000, "expenses": 23000, "netProfit": 12000 },
+      { "month": 6, "revenue": 45000, "expenses": 25000, "netProfit": 20000 },
+      { "month": 12, "revenue": 52000, "expenses": 28000, "netProfit": 24000 }
+    ]
+  }
+]

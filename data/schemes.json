@@ -1,0 +1,65 @@
+[
+  {
+    "id": "pmegp",
+    "code": "PMEGP",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "description": "Credit-linked subsidy scheme for setting up micro-enterprises in manufacturing and service sectors.",
+    "maxLoanAmount": 5000000,
+    "subsidyPercentage": 35,
+    "eligibilityText": "Age 18+, Minimum 8th pass for projects above ₹10L in manufacturing.",
+    "requirements": ["Age >= 18", "Project cost <= ₹50L", "New unit only"],
+    "statusText": "Likely eligible",
+    "documentsTotal": 6,
+    "documentsReady": 4,
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "Project Report / Cost Estimate",
+      "Educational Qualification Certificate",
+      "Caste / Category Certificate (for 35% subsidy)",
+      "Rural Area Certificate from Gram Panchayat"
+    ]
+  },
+  {
+    "id": "mudra-shishu",
+    "code": "MUDRA (Shishu)",
+    "name": "Pradhan Mantri MUDRA Yojana - Shishu Category",
+    "description": "Collateral-free micro loans up to ₹50,000 for small businesses and self-employed individuals.",
+    "maxLoanAmount": 50000,
+    "subsidyPercentage": 0,
+    "eligibilityText": "Any Indian citizen with a viable non-farm revenue proposal.",
+    "requirements": ["No existing default", "Viable business plan"],
+    "statusText": "Likely eligible",
+    "documentsTotal": 6,
+    "documentsReady": 4,
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar/Voter ID)",
+      "Address Proof",
+      "2 Passport size photos",
+      "Quotation of machinery / raw materials",
+      "Bank Statement (last 6 months)",
+      "Business establishment proof"
+    ]
+  },
+  {
+    "id": "nrlm-shg",
+    "code": "NRLM SHG credit",
+    "name": "Deendayal Antyodaya Yojana - NRLM SHG Credit",
+    "description": "Subsidized interest rate loans (at 7% per annum) for Self Help Group women entrepreneurs.",
+    "maxLoanAmount": 300000,
+    "subsidyPercentage": 25,
+    "eligibilityText": "Active member of a registered Panchasutra SHG for over 6 months.",
+    "requirements": ["Female applicant", "SHG membership >= 6 months", "Good repayment record"],
+    "statusText": "Check eligibility",
+    "documentsTotal": 6,
+    "documentsReady": 2,
+    "requiredDocuments": [
+      "SHG Resolution Letter signed by office bearers",
+      "SHG Bank Passbook copy",
+      "Individual Aadhaar Card",
+      "Group Savings Register extract",
+      "Micro Credit Plan (MCP) document",
+      "Panchayat NOC"
+    ]
+  }
+]

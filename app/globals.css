@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage-50: #F5F8F2;
+  --color-sage-100: #E8EFE3;
+  --color-sage-200: #D3DFCB;
+  --color-sage-300: #BACBAE;
+  --color-sage-400: #9CAF88;
+  --color-sage-500: #7F9A6D;
+  --color-sage-600: #5E7A50;
+  --color-sage-700: #4A6240;
+  --color-sage-800: #374B31;
+  --color-sage-900: #263322;
+  --color-accent: #C47A53;
+  --color-accent-strong: #A4562F;
+  --color-sand: #F3ECDD;
+  --color-ink: #1E2A20;
+  --color-muted: #566558;
+  --color-warning: #D9A441;
+  --color-error: #B5524A;
+}
+
+:root {
+  --sage-50: #F5F8F2;
+  --sage-100: #E8EFE3;
+  --sage-200: #D3DFCB;
+  --sage-300: #BACBAE;
+  --sage-400: #9CAF88;
+  --sage-500: #7F9A6D;
+  --sage-600: #5E7A50;
+  --sage-700: #4A6240;
+  --sage-800: #374B31;
+  --sage-900: #263322;
+  --accent: #C47A53;
+  --accent-strong: #A4562F;
+  --sand: #F3ECDD;
+  --ink: #1E2A20;
+  --muted: #566558;
+  --warning: #D9A441;
+  --error: #B5524A;
+}
+
+body {
+  background: var(--sage-50);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom scrollbar for horizontal chips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Pulse animation for voice onboarding */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(196, 122, 83, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 20px rgba(196, 122, 83, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(196, 122, 83, 0);
+  }
+}
+
+.mic-pulse {
+  animation: pulse-ring 2s infinite;
+}
