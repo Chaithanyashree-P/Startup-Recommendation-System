@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gram Udyam AI
 
-## Getting Started
+## Run locally
 
-First, run the development server:
+Install the frontend dependencies and start the Next.js app:
 
 ```bash
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The frontend is available at [http://localhost:3000](http://localhost:3000). To run the FastAPI backend, install its dependencies and start it in a second terminal:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd backend
+python -m pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploy
 
-## Learn More
+The web app is a Next.js app and the API is a separate FastAPI service.
 
-To learn more about Next.js, take a look at the following resources:
+1. Import this GitHub repository into [Vercel](https://vercel.com/new). Keep the project root at the repository root and use the default Next.js build settings.
+2. In Vercel project settings, add `NEXT_PUBLIC_BACKEND_URL` with the public URL of the API service, then redeploy the web app.
+3. In [Render](https://dashboard.render.com/), create a Blueprint from this repository and deploy the `startup-recommendation-system-api` web service defined in `render.yaml`. Its health endpoint is `/`.
+4. Copy the Render service URL into Vercel's `NEXT_PUBLIC_BACKEND_URL`. Optional third-party API keys can be added as Render environment variables; never commit them to the repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Without `NEXT_PUBLIC_BACKEND_URL`, the frontend falls back to local data and attempts to reach `http://localhost:8000` for backend features.
