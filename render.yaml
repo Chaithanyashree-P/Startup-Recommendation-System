@@ -10,3 +10,15 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.11
+  - type: web
+    name: startup-recommendation-system-web
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+      - key: NEXT_PUBLIC_BACKEND_URL
+        value: https://startup-recommendation-system-api.onrender.com
